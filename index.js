@@ -1,20 +1,29 @@
 function add(a,b){
-  result = a+b
+  var result = a+b
   return result
 }
 
 function subtract(a,b){
-  return (a-b)
+  var result = a-b
+  return result
 }
 
 function multiply(a,b){
-  return (a*b)
+  var result = a*b
+  return result
 }
 
 function divide(a,b){
-  return (a/b)
+  var result =  a/b
+  return result
 }
 
 function inc(n){
+  n++
+  return n
+}
+
+function dec(n){
+  n--
   return n
 }
