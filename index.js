@@ -34,5 +34,6 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  parseFloat(n, 10)
+  var result = parseFloat(n, 10)
+  return result
 }
